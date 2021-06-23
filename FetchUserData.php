@@ -1,5 +1,5 @@
 <?php
-    $con=mysqli_connect("mysql1.000webhost.com","a8487083_new","bhopal7552731059","a8487083_databas");
+    $con=mysqli_connect("mysql1.000webhost.com","a8487083_new","password","a8487083_databas");
   if (!$con) {
    echo err; die('Connect Error: ' . mysqli_connect_error());
 }
